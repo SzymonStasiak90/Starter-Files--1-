@@ -16,6 +16,7 @@ $gray-text: #2c2c2c;
 
 @import 'global';
 @import 'intro';
+@import 'projects';
 
 
 
@@ -86,4 +87,15 @@ $gray-text: #2c2c2c;
             margin: 2rem;
         }
     }
+
+
+    .cards{
+        flex: 1 1 50 rem;
+        img{
+            width: 90%;
+            height: 90%;
+        }
+    }
+
+
 }
