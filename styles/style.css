@@ -109,7 +109,7 @@ nav ul {
   margin-top: 4rem;
 }
 .intro-social a {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 .active {
@@ -117,4 +117,52 @@ nav ul {
   color: white;
   border-radius: 2rem;
   padding: 1rem 2rem;
+}
+
+.intro-text, .intro-images {
+  flex: 1 1 40rem;
+}
+
+#plant-left {
+  animation: plant 2s ease infinite alternate;
+}
+
+#plant-right {
+  animation: plant 2s ease infinite alternate 0.5s;
+}
+
+#me {
+  animation: me 1.5s infinite alternate;
+  transform-origin: bottom;
+}
+
+#clock-arrow {
+  animation: clock 2s infinite linear;
+  transform-box: fill-box;
+  transform-origin: bottom;
+}
+
+@keyframes plant {
+  from {
+    transform: translateY();
+  }
+  to {
+    transform: translateY(-20%);
+  }
+}
+@keyframes me {
+  from {
+    transform: rotateZ(1.5deg);
+  }
+  to {
+    transform: rotateZ(-2.5deg);
+  }
+}
+@keyframes clock {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }/*# sourceMappingURL=style.css.map */
