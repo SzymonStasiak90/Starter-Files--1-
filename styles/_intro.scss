@@ -119,3 +119,23 @@ nav{
         transform: rotateZ(360deg);
     }
 }
+
+@media screen and (max-width:1350px){
+    html{
+        font-size: 50%;
+    }
+
+    svg{
+        width: 80%;
+    }
+    .main-head{
+        width: 100%;
+    }
+
+    .intro {
+        h2{
+        color: black;
+    }}
+}
+
+
